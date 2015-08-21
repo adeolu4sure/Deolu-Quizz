@@ -1,0 +1,10 @@
+  <!-- <ul>
+  <% @user_test.each #do |user| %>
+  <li> <%= user[#:value] %></li>
+  	<li> <%= user[#:correct_answer] %></li>
+  	<% user.answers.each #do |an| %>
+  	  <p><%= an[#:value] %></p>
+  	  <p><%= an[#:abbrev] %></p>
+  	<% #end %>
+  	<% #end %>
+  </ul -->>

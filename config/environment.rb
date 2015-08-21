@@ -2,6 +2,13 @@
 require 'bundler'
 Bundler.require
 
+require 'sinatra/base'
+#require 'sinatra/flash'
+require 'dm-core'
+#require 'bcrypt'
+require 'rack-flash'
+require 'rubygems' 
+require 'faker' 
 # set the pathname for the root of the app
 require 'pathname'
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))

@@ -1,13 +1,21 @@
-<h3>
-  Welcome,Testing
-  <ul>
-  <% @user_test.each do |user| %>
-  	<li> <%= user[:value] %></li>
-  	<li> <%= user[:correct_answer] %></li>
-  	<% user.answers.each do |an| %>
-  	  <p><%= an[:value] %></p>
-  	  <p><%= an[:abbrev] %></p>
-  	<% end %>
-  	<% end %>
-  </ul>
+<h3
+   <div class="container">
+Welcome, User
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign up</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+      </form>
+
+    </div>
+
 </h3>
+
